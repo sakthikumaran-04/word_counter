@@ -20,9 +20,9 @@
     <!------------------------------script--------------------------------------->
     <script>
         function count(){
-            var text=document.getElementById('text').value;
-            var textarr=text.split(' ');
-            document.getElementById('output').innerHTML="The Number of words: " + textarr.length;
+            var count=0
+            var text=document.getElementById('text').value.trim().split(/\s+/);
+            document.getElementById('output').innerHTML="The Number of words: " + text.length;    
         }
     </script>
 </body>
