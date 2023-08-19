@@ -23,7 +23,7 @@
             var input=document.getElementById('text').value;
             var text=input.trim().split(/\s+/);
             if(input==""){
-                
+                document.getElementById('output').innerHTML="The Number of words: 0";  
             }
             else{
             document.getElementById('output').innerHTML="The Number of words: " + text.length;    
